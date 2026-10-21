@@ -1,0 +1,8 @@
+{
+  "firestore": {
+    "databaseId": "ai-studio-swadeep-c9f5f4f9-12f6-4ef3-a3b0-884128973d8b",
+    "rules": "firestore.rules",
+    "edition": "ENTERPRISE",
+    "dataAccessMode": "FIRESTORE_NATIVE"
+  }
+}

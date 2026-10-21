@@ -1,0 +1,80 @@
+{
+  "name": "Gidhaur Bakery",
+  "short_name": "Gidhaur",
+  "description": "Order fresh & delicious bakery delicacies and food directly with Gidhaur Bakery. Quick guest ordering, real-time live order tracking, Kitchen KDS, and Delivery Rider portal.",
+  "start_url": "/",
+  "scope": "/",
+  "id": "/",
+  "lang": "en",
+  "dir": "ltr",
+  "display": "standalone",
+  "display_override": [
+    "fullscreen",
+    "standalone",
+    "window-controls-overlay",
+    "browser"
+  ],
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "orientation": "portrait-primary",
+  "prefer_related_applications": false,
+  "categories": [
+    "food",
+    "shopping",
+    "lifestyle"
+  ],
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-mobile.png",
+      "sizes": "540x960",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Gidhaur Bakery Mobile Ordering"
+    },
+    {
+      "src": "/screenshot-mobile.png",
+      "sizes": "540x960",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Gidhaur Bakery Desktop & Tablet View"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Order Food",
+      "url": "/",
+      "description": "Browse menu and order fresh food"
+    },
+    {
+      "name": "Track Live Order",
+      "url": "/track",
+      "description": "Check real-time order status"
+    }
+  ]
+}

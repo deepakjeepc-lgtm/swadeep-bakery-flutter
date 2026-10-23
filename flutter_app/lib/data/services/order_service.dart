@@ -1,4 +1,4 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:cloud_firestore/cloud_firestore.dart' hide Order;
 import '../models/order.dart';
 import 'local_storage_service.dart';
 
@@ -40,7 +40,7 @@ class OrderService {
         .limit(25)
         .snapshots()
         .map((snapshot) {
-      final list = snapshot.docs.map((doc) {
+      final List<Order> list = snapshot.docs.map<Order>((doc) {
         return Order.fromMap(doc.data() as Map<String, dynamic>, doc.id);
       }).toList();
 
